@@ -10,22 +10,27 @@
     <meta name="robots" content="index, follow" />
     <meta name="language" content="English">
     <title>Eonix Solutions | Empower Your Tech Career</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/EONIXLOGO2_241214_092740.jpg" />
+<!-- Font Awesome icons (free version) -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
+<!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
+
     <link href="css/styles.css" rel="stylesheet" />
+
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+  
 </head>
 
-<body id="page-top">
+
+<body id="page-top"  style="background-color: #f7f8f4; color: #333;">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav"  style="background-color:  #1d5057;">
         <div class="container">
-            <a class="navbar-brand" href="#page-top">Eonix Solutions</a>
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/EONIXLOGO2_241214_092740.jpg" alt="Eonix Solutions" class="img-fluid" style="max-height: 40px; padding-right: 3px; "><span style="color: #F8ECBF;"> Eonix Solutions</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -40,6 +45,8 @@
                     <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tel:+8089272211" >📞 8089272211</a></li>
+
                 </ul>
             </div>
 
@@ -259,80 +266,58 @@
         </div>
     </section>
 
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
 
-            </div>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <!-- Name input-->
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                        </div>
-                        <div class="form-group">
-                            <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <!-- Phone number input-->
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <!-- Message input-->
-                            <textarea class="form-control" id="message" placeholder="Your Message *"
-                                data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted-->
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Form submission successful!</div>
-                        To activate this form, sign up at
-                        <br />
-                        <a
-                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                    </div>
-                </div>
-                <!-- Submit error message-->
-                <!---->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form-->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
-                </div>
-                <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
-                        id="submitButton" type="submit">Send Message</button></div>
-            </form>
+   <!-- Contact-->
+<section class="page-section" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Contact Us</h2>
         </div>
-    </section>
+        <form id="contactForm">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <!-- Name input-->
+                        <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required />
+                        <div class="invalid-feedback">A name is required.</div>
+                    </div>
+                    <div class="form-group">
+                        <!-- Email address input-->
+                        <input class="form-control" id="email" name ="email" type="email" placeholder="Your Email *" />
+    <div class="invalid-feedback">An email is required.</div>
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <!-- Phone number input-->
+                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone *" required />
+                        <div class="invalid-feedback">A phone number is required.</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <!-- Message input-->
+                        <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required></textarea>
+                        <div class="invalid-feedback">A message is required.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Submit success message-->
+            <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center text-success mb-3">
+                    <div class="fw-bolder">Message sent successfully!</div>
+                </div>
+            </div>
+            <!-- Submit error message-->
+            <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Failed to send the message. Please try again.</div>
+            </div>
+            <!-- Submit Button-->
+            <div class="text-center">
+                <button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
 
     <!-- Footer-->
     <footer class="footer py-4">
@@ -345,7 +330,7 @@
                     <!-- <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/YourTwitterHandle" target="_blank" aria-label="Twitter">
                     <i class="fab fa-twitter"></i>
                 </a> -->
-                    <a class="btn btn-dark btn-social mx-2" href="https://instagram.com/YourInstagramHandle"
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/eonixsolutions.in?igsh=d2NhYnI2MzAwZXJh"
                         target="_blank" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
@@ -353,15 +338,27 @@
                         aria-label="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a class="btn btn-dark btn-social mx-2" href="https://linkedin.com/in/YourLinkedInProfile"
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/eeman-kamil?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                         target="_blank" aria-label="LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
 
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    <a class="nav-link" href="tel:+8089272211" >📞 8089272211</a>
+                    <a class="nav-link" href="mailto:info@eonixsolutions.com" >✉️ eonixsolutions@gmail.com</a>
+
+                    <!-- <p style="color: #F8ECBF; font-weight: bold;">
+                        📞 8089272211 | ✉️ 
+                        <a href="mailto:info@eonixsolutions.com" style="color: #F8ECBF; text-decoration: none;"
+                           onmouseover="this.style.color='#E1D1A3'" 
+                           onmouseout="this.style.color='#F8ECBF'">
+                            info@eonixsolutions.com
+                        </a>
+                    </p> -->
+                    <br>
+                    <a class="link-dark text-decoration-none me-3" href="#!"> <span style="color:#F8ECBF ;">Privacy Policy</span></a>
+                    <a class="link-dark text-decoration-none" href="#!"><span style="color:#F8ECBF ;">Terms of Use</span></a>
                 </div>
             </div>
         </div>
@@ -372,12 +369,9 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script type="module" src="js/scripts.js"></script>
+   
+   
 </body>
 
 </html>
